@@ -119,6 +119,21 @@
     color: #121212;
 }
 
+.one {
+    color: #ff18a6;
+
+}
+
+.two {
+    color: #8c00ffdc;
+
+}
+
+.three{
+    color: #18ff78;
+}
+
+
 @keyframes changeSize {
     0% {
         width: 550px;
