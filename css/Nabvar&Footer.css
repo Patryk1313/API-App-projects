@@ -14,6 +14,7 @@
 .navbar nav li a {
     text-decoration: none;
     font-size: 20px;
+    color: #121212;
 }
 
 .navbar .nav-ul {
