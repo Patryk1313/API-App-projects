@@ -162,9 +162,9 @@
         display: none;
     }
     .show .flex :nth-child(2)::after {
-        width: 50%;
-        height: 300px;
-        left: 25%;
+        width: 30%;
+        height: 200px;
+        left: 35%;
     }
     .prototype h1 {
         font-size: 40px;
@@ -172,6 +172,6 @@
     }
     .projects .card {
         text-align: center;
-        min-height: 150px;
+        min-height: 160px;
     }
 }
