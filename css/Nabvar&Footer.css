@@ -1,0 +1,132 @@
+.navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    transform: 2s;
+}
+
+.navbar nav li {
+    padding: 0 30px;
+}
+
+.navbar nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar .nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar .nav ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnMenu {
+    display: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    transition: 0.6s;
+}
+
+.btnMenu:hover {
+    transform: scale(0.9);
+}
+
+/*____________________Footer____________________*/
+.footer {
+    color: #000;
+}
+
+.footer nav a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.footer .social i {
+    font-size: 40px;
+    margin: 0 10px;
+    color: #000;
+}
+
+.footer .social i:hover,
+.footer nav a:hover {
+    font-weight: bold;
+}
+
+.footer .grid {
+    text-align: center;
+}
+
+#contact {
+    font-size: 50px;
+    color: #121212;
+    border-bottom: 2px solid#c4ff01;
+}
+
+/*____________________Media Querys____________________*/
+@media (max-width: 1050px) {
+    .mySelf .flex h4 {
+        text-align: center;
+    }
+} 
+
+/*____________________Tablets & under____________________*/
+@media (max-width: 768px) {
+
+    /*____________________Navbar____________________*/
+    .navbar .nav-ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar .container {
+        height: auto;
+        position: relative;
+    }
+    
+    .navbar .nav-ul.show {
+        display: flex;
+        position: static;
+        height: auto;
+        border-bottom: 2px solid #FFaa01;
+    }
+
+    .navbar .nav-ul.show li{
+        margin: 20px 0;
+    }
+
+    .navbar .nav-ul.show li:hover{
+        margin: 20px 0;
+    }
+
+    .navbar .nav-ul.show li:hover{
+        border-radius: 5px;
+        transform: scale(1.1);
+        margin: 20px 0;
+    }
+    
+    .navbar .nav-ul.show a{
+        color: #121212;
+        text-decoration: none;
+        padding: 0 40px;
+        background-color: #c4ff01;
+    }
+
+    .btnMenu {
+        display: block;
+    }
+    .footer .grid{
+       width: 100%;
+    }
+}
