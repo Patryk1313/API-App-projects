@@ -33,6 +33,11 @@ body {
     background-clip: content-box;
     background-color: #ffaa01;
   }
+
+  a:visited,
+  a:active {
+      color: #121212;
+  }
 /*____________________Untilities____________________*/
 
 .container {
